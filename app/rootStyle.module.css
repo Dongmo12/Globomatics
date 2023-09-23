@@ -6,3 +6,6 @@
   color: #bdfef2;
   text-decoration: none;
 }
+.displayLink{
+  display: flex;
+}

@@ -26,7 +26,7 @@ export default async function Page() {
             <h3 className={styles.titleText}>{title}</h3>
             {speakers &&
               speakers.map(({ name }) => (
-                <h3 className={styles.titleText}>Speaker: {name}</h3>
+                <h3 key={id} className={styles.titleText}>Speaker: {name}</h3>
               ))}
             <h5 className={styles.descText}>{description}</h5>
             <h4 className={styles.infoText}>Room: {room}</h4>
